@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Map <String,Integer> map=new TreeMap<>();
+        map.put("Apple",6);
+        map.put("Orange",3);
+        map.put("Mango",7);
+        System.out.print(map);
+    }
+}
+
